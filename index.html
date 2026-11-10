@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="استودیوی تصویر بهنود امیری؛ تغییر اندازه و تبدیل فرمت عکس روی دستگاه، بدون آپلود."><title>استودیوی تصویر | بهنود امیری</title><style>:root{color-scheme:light dark;--bg:#f8f6f1;--fg:#202631;--card:#fff;--gold:#9a7016}*{box-sizing:border-box}body{margin:0;padding:24px;font:17px/1.8 Tahoma,Arial,sans-serif;background:var(--bg);color:var(--fg)}main{max-width:960px;margin:auto}.ba-image-tool{padding:clamp(18px,4vw,40px);border:1px solid #d9c58f;border-radius:24px;background:var(--card);overflow:hidden}h1{font-size:clamp(24px,4vw,38px)}h2{font-size:24px}.ba-services-eyebrow{color:var(--gold)}.ba-image-drop{display:block;padding:24px;border:2px dashed #b08a36;border-radius:16px;cursor:pointer}.ba-image-drop.is-dragging{background:#b08a3620}small,input[type=file]{display:block;width:100%}.ba-image-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:24px 0}input,select,button,.bhn-btn{font:inherit}input:not([type=checkbox]),select{width:100%;padding:10px;border:1px solid #a9a9a9;border-radius:10px;background:var(--card);color:var(--fg)}.ba-inline-check{display:flex;align-items:center;gap:10px}.ba-image-actions{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0}button,.bhn-btn{padding:12px 20px;border:1px solid var(--gold);border-radius:12px;background:var(--gold);color:white;cursor:pointer;text-decoration:none}button:disabled{opacity:.5;cursor:not-allowed}[hidden]{display:none!important}figure{margin:16px 0}figure img{max-width:100%;height:auto}footer{margin:24px 0;text-align:center}a{color:var(--gold)}:focus-visible{outline:3px solid #4385dc;outline-offset:3px}@media(max-width:600px){body{padding:12px}.ba-image-controls{grid-template-columns:1fr}}@media(prefers-color-scheme:dark){:root{--bg:#14171d;--card:#20252e;--fg:#f4f0e8;--gold:#b78b29}}</style></head><body><main><h1>استودیوی تصویر بهنود امیری</h1>
+    <section class="ba-image-tool" data-ba-image-tool data-access="1" aria-labelledby="studio-title" dir="rtl">
+      
+      <span class="ba-services-eyebrow">پردازش خصوصی · بدون ارسال فایل به سرور</span>
+      <h2 id="studio-title">استودیوی تصویر</h2>
+      <p>تغییر اندازه و تبدیل تصویر روی دستگاه خودتان؛ عکس شما ذخیره یا آپلود نمی‌شود.</p>
+      <label class="ba-image-drop">انتخاب تصویر یا رها کردن فایل در این کادر
+        <input type="file" accept="image/jpeg,image/png,image/webp,image/avif,image/bmp" data-image-file>
+        <small>JPG، PNG، WebP، AVIF و BMP قابل خواندن مرورگر · حداکثر ۲۰ مگابایت و ۲۴ مگاپیکسل</small>
+      </label>
+      <div class="ba-image-controls">
+        <label>عرض (پیکسل)<input data-image-width type="number" min="1" max="6000" value="1200" inputmode="numeric"></label>
+        <label>ارتفاع (پیکسل)<input data-image-height type="number" min="1" max="6000" value="800" inputmode="numeric"></label>
+        <label>فرمت خروجی<select data-image-format><option value="image/webp">WebP</option><option value="image/jpeg">JPG</option><option value="image/png">PNG (بدون افت)</option></select></label>
+        <label>کیفیت <output data-image-quality-value>۸۰٪</output><input data-image-quality type="range" min="10" max="100" value="80"></label>
+      </div>
+      <label class="ba-inline-check"><input type="checkbox" data-image-ratio checked><span>حفظ نسبت عرض و ارتفاع</span></label>
+      <div class="ba-image-actions"><button type="button" data-image-convert disabled>پردازش تصویر</button><a data-image-download class="bhn-btn" hidden>دانلود تصویر</a><button type="button" data-image-reset>پاک کردن تصویر</button></div>
+      <p data-image-status role="status" aria-live="polite">یک تصویر انتخاب کنید. کیفیت روی PNG اثر ندارد. خروجی ممکن است از فایل اولیه بزرگ‌تر شود.</p>
+      <figure hidden data-image-preview><img alt="پیش‌نمایش تصویر خروجی" decoding="async"><figcaption data-image-info></figcaption></figure>
+    </section>
+<footer>توسعه و نگهداری: بهنود امیری · <a href="https://behnoodamiri.ir/" rel="noopener">behnoodamiri.ir</a><p>ابزار مستقل و رایگان؛ تصاویر به سرور ارسال نمی‌شوند.</p></footer></main><script src="studio.js"></script></body></html>
+
+
